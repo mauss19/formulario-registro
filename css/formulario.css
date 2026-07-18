@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+}
+form label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 8px;
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form input:focus {
+  border: 2px solid #0041C2;
+  outline: none;
+}
+form input.invalid {
+  border: 2px solid #ff0000;
+  outline: none;
+}
+form input.valid {
+  border: 2px solid #008000;
+  outline: none;
+}
+form button {
+  background-color: #0041C2;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.error-msg {
+  color: #ff0000;
+  font-size: 12px;
+  min-height: 15px;
+  margin-top: 2px;
+}/*# sourceMappingURL=formulario.css.map */
